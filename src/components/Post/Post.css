@@ -1,0 +1,46 @@
+.post__form 
+{
+    height:100vh;
+    width:95vw;
+    background-color: rgb(255, 249, 249);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 2rem;
+ }
+
+#post__title,
+#post__description
+{
+    width:40vw;
+    margin:1rem;
+ }
+#outlined-basic2
+{
+    width:43vw;
+    margin:1rem;
+
+}
+ 
+input[type="file"]
+{
+    display:none;
+}
+
+.image__label{
+    background-color: rgb(101, 80, 221);
+    width:43vw;
+    color:white;
+    border:1rem;
+    border-radius:.1rem;
+    cursor:pointer;
+
+    padding:.6rem;
+    margin-bottom:2rem;
+}
+
+.image__label:hover{
+    background-color: rgb(113, 93, 224);
+
+}
